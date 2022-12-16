@@ -240,15 +240,15 @@ footer{
 }
 /*Designing of Contact Us*/
 #ContactUs{
-    width:100vw;
-    height:100vh;
+    width:90%;
+    height:90%;
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: gray;
 }
 .form-shape input, .form-shape select, .form-shape textarea{
-   width: 92%;
+   width: 100%;
    padding: 0.5rem;
 }
 /*Changing the color of placeholder*/
@@ -258,32 +258,32 @@ footer{
 /*Making the webpage responsive using media queries*/
 @media only screen and (max-width:1131px){
     #row4{
-        width: 42vw;
+        width: 70%;
     }
     #row5{
-        width:45vw;
+        width:70%;
     }
     #row6{
         margin-top: 20px;
-        width:90vw;
+        width:70%;
     }
 }
 @media only screen and (min-width:600px) and (max-width:781px)
 {
     #row4{
-        width:84vw;
+        width:70%;
         margin: auto;
         margin-left: 22px;
     }
     #row5{
         
-        width:84vw;
+        width:70%;
         margin: auto;
         margin-top: 20px;
         margin-left: 22px;
     }
     #row6{
-        width:84vw;
+        width:70%;
         margin: auto;
         margin-top: 20px;
         margin-left: 22px;
@@ -291,19 +291,19 @@ footer{
 }
 @media only screen and (max-width:600px){
     #row4{
-        width:78vw;
+        width:70%;
         margin: auto;
         margin-left: 3px;
     }
     #row5{
         
-        width:78vw;
+        width:70%;
         margin: auto;
         margin-top: 20px;
         margin-left: 3px;
     }
     #row6{
-        width:78vw;
+        width:70%;
         margin: auto;
         margin-top: 20px;
         margin-left: 3px;
@@ -311,12 +311,12 @@ footer{
 }
 @media only screen and (min-height:1000px){
     #navbar{
-        height:10vh;
+        height:90%;
     }
     #container1::before{
-        height:39vh;
+        height:50%;
     }
     #container1{
-        height:44vh
+        height:50%;
     }
 }
