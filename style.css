@@ -3,7 +3,28 @@
     padding:0px;
 }
 /*Header Styling*/
-
+.pimg1{
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+}
+.pimg1{
+            background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            min-height: 500px;
+}
+.ptext{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
 #top{
     color:rgb(245, 10, 10);
     text-align:center;
